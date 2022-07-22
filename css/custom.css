@@ -11,3 +11,29 @@
       font-size: 3.5rem;
     }
 }
+
+a.no-link-styling, a.no-link-styling:hover, a.no-link-styling:focus, a.no-link-styling:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style all Awesome Font Icons */
+.fa {
+  padding: 6px;
+  font-size: 30px;
+  /* width: 30px; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+  /* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+  /* Set a specific color for each brand */
+.fa-linkedin , .fa-github {
+  background: #8d8f90;
+  color: white;
+}
